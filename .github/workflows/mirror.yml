@@ -8,5 +8,5 @@ on:
 
 jobs:
   mirror:
-    uses: ${{ github.repository_owner }}/reusable-workflows/.github/workflows/mirror-reusable.yml@main
+    uses: https://github.com/dmx-d/reusable-workflows/.github/workflows/mirror-reusable.yml@main
     secrets: inherit
